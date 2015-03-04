@@ -7,11 +7,23 @@
     <%= text_field_tag "Amount" %><br><br>
     <%= label_tag "Potential_name" %> <br>
     <%= text_field_tag "Potential_name" %><br><br>
-    <%= label_tag "Contact_name" %> <br>
-    <%= text_field_tag "Contact_name" %><br><br>
-    <%= label_tag "Potential_Id" %> <br>
-    <%= text_field_tag "Potential_Id" %><br><br>
+    <%= label_tag "Account_name" %> <br>
+    <%= text_field_tag "Account_name" %><br><br>
+    <%= label_tag "Stage" %> <br>
+    <%= text_field_tag "Stage" %><br><br>
+    <%= label_tag "Type" %> <br>
+    <%= text_field_tag "Type" %><br><br>
+    <%= label_tag "Probability" %> <br>
+    <%= text_field_tag "Probability" %><br><br>
+    <%= label_tag "Next_Step" %> <br>
+    <%= text_field_tag "Next_step" %><br><br>
+    <%= label_tag "Expected_revenue" %> <br>
+    <%= text_field_tag "Expected_revenue" %><br><br>
+    <%= label_tag "Lead_source" %> <br>
+    <%= text_field_tag "Lead_source" %><br><br>
     <%= label_tag "Description" %> <br>
     <%= text_area_tag "Description" %><br><br>
     <%= submit_tag "Submit" %>
 <% end %>
+
+<%= link_to 'View Potential Details', po_path %>

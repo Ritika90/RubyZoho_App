@@ -10,6 +10,11 @@ Rails.application.routes.draw do
   post 'rubyzohos/tsk'
   match 'potential', to: 'rubyzohos#potential', via: [:get, :post]
   post 'rubyzohos/pot'
+  match 'accnt', to: 'rubyzohos#accnt', via: [:get]
+  match 'co', to: 'rubyzohos#co', via: [:get]
+  match 'le', to: 'rubyzohos#le', via: [:get]
+  match 'ta', to: 'rubyzohos#ta', via: [:get]
+  match 'po', to: 'rubyzohos#po', via: [:get]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
